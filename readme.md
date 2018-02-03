@@ -4,8 +4,6 @@ A simple script to help converting (only) the `REG_BINARY` entries exported from
 E.g. turning files containing entries such:
 
 ```
-#!python
-
 [HKEY_LOCAL_MACHINE\SYSTEM\CurrentControlSet\Control\Lsa\AccessProviders]
 "MartaExtension"="ntmarta.dll"
 "ProviderOrder"=hex(7):57,00,69,00,6e,00,64,00,6f,00,77,00,73,00,20,00,4e,00,\
